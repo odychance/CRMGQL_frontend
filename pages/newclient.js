@@ -31,7 +31,7 @@ query getClientsSeller {
 }
 `
 
-const newclient = () => {
+const Newclient = () => {
 
     const router = useRouter()
 
@@ -251,4 +251,4 @@ const newclient = () => {
   )
 }
 
-export default newclient
+export default Newclient

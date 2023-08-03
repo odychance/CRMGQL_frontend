@@ -29,7 +29,7 @@ const GET_PRODUCT = gql`
   }
 `
 
-const newproduct = () => {
+const Newproduct = () => {
 
     //Routing
     const router = useRouter()
@@ -198,4 +198,4 @@ const newproduct = () => {
   )
 }
 
-export default newproduct
+export default Newproduct

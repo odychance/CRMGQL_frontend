@@ -15,7 +15,7 @@ const BETTER_SELLERS = gql`
     }
 `
   
-const bettersellers = () => {
+const Bettersellers = () => {
 
 
     const {data, loading, error, startPolling, stopPolling} = useQuery(BETTER_SELLERS)
@@ -71,4 +71,4 @@ const bettersellers = () => {
     )
 }
 
-export default bettersellers
+export default Bettersellers

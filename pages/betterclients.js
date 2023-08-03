@@ -15,7 +15,7 @@ const BETTER_CLIENTS = gql`
     }
 `
 
-const betterclients = () => {
+const Betterclients = () => {
 
 
     const {data, loading, error, startPolling, stopPolling} = useQuery(BETTER_CLIENTS)
@@ -80,4 +80,4 @@ const betterclients = () => {
   )
 }
 
-export default betterclients
+export default Betterclients

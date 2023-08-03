@@ -36,7 +36,7 @@ const GET_ORDERS_SELLER = gql`
     }
 `
 
-const neworder = () => {
+const Neworder = () => {
 
     const [ message, setMessage ] = useState(null)
 
@@ -143,4 +143,4 @@ const neworder = () => {
   )
 }
 
-export default neworder
+export default Neworder
